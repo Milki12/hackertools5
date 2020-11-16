@@ -81,7 +81,7 @@ if [[ -d ~/ghost ]]; then
 else
     cd ~
     {
-        git clone https://github.com/Milki12/hackertool5
+        git clone https://github.com/Milki12/hackertool5.git
     } &> /dev/null
 fi
 
@@ -94,11 +94,11 @@ fi
 
 {
 cp bin/ghost /usr/bin
-chmod +x /usr/bin/ghost
+chmod +x /usr/bin/hackertools5
 cp bin/hackertools5 /usr/local/bin
-chmod +x /usr/local/bin/ghost
+chmod +x /usr/local/bin/hackertools5
 cp bin/ghost /data/data/com.termux/files/usr/bin
-chmod +x /data/data/com.termux/files/usr/bin/ghost
+chmod +x /data/data/com.termux/files/usr/bin/hackertools
 } &> /dev/null
 
 sleep 1
